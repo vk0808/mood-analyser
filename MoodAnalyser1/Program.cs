@@ -6,10 +6,7 @@ namespace MoodAnalyser1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Mood Analyser");
-
-            MoodAnalyser mood = new MoodAnalyser("Sad");
-            Console.WriteLine(mood.AnalyseMood());
+            
         }
     }
 }
