@@ -9,7 +9,12 @@ namespace MoodAnalyser1
         // instance variable
         private string message;
 
-        // constructor
+        // default constructor
+        public MoodAnalyser()
+        {
+        }
+
+        // parameterised constructor
         public MoodAnalyser(string message)
         {
             this.message = message;
